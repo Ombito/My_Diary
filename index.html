@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Diary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="diary-container">
+        <div id="entries"></div>
+        <div id="form-container">
+            <h3>Script your moment</h3>
+            <form method="POST" id="postForm">
+                <label for="">Title</label>
+                <input type="text" id="title">
+                <label for="">Date</label>
+                <input type="date" id=""date>
+                <br>
+                <label for="">What was your experience?</label>
+                <textarea name="textarea" id="experience" cols="30" rows="10"></textarea>
+                <br>
+                <button type="submit" >Add entry</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
